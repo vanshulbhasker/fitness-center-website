@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	color: white;	
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../potewallp3.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position: center;
+	margin-left: 0.5%;
+	transition: 0.6s ease;
+
+}
+.box{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+	padding: 20px;
+	box-sizing: border-box;
+	background: transparent;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+
+}
+.box:hover
+{
+	box-shadow: 0 15px 30px rgba(10,10,10,1.5);
+}
+.box .imgbx{
+
+	width: 250px;
+	height: 180px;
+	flex:0 0 300px;
+}
+.box .imgbx img{
+	max-width: 100%;
+
+}
+.box .imgbx:hover
+{
+	box-shadow: 0 15px 30px rgba(10,10,10,1.5);
+}
+.box .content{
+	padding-left: 20px;
+
+}
+.box .content p{
+	margin:0;
+	margin-left: 0;
+		color: white;
+
+
+}
+.box .content p{
+	margin:0;
+	padding: 10px 0 0;
+	text-align:justify;
+
+}
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
+	
+	text-decoration: none;
+	color: #fff;
+	
+	border: 1px solid ;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+h1{
+	color:#fff;
+}
+
+.logo img{
+	float:left;
+	width: 160px;
+	height: auto;
+
+}
+.photos img{
+	position: absolute;
+	top: 40%;
+	width: 160px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+
+}
+.title2 {
+	position: absolute;
+	top:30%;
+	color:#fff;
+
+	
+
+}
+.title2 h2{
+	color: #fff;
+}
+.title2 p{
+	color : #fff;
+	font-size: 20px;
+}
